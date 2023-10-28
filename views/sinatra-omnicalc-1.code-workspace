@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"workbench.editor.closeOnFileDelete": true,
+		"workbench.fontAliasing": "auto",
+		"workbench.tree.renderIndentGuides": "always",
+		"files.autoSaveDelay": 500,
+		"screencastMode.verticalOffset": 10,
+		"explorer.compactFolders": false,
+		"explorer.incrementalNaming": "smart",
+		"terminal.integrated.altClickMovesCursor": true,
+		"vscode-erb-beautify.keepBlankLines": 1,
+		"gitlens.showWelcomeOnInstall": false,
+		"gitlens.currentLine.enabled": false,
+		"emmet.includeLanguages": {
+			"erb": "html"
+		},
+		"files.associations": {
+			"*.html.erb": "erb"
+		}
+	}
+}
