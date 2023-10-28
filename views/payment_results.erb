@@ -1,0 +1,35 @@
+</h1>
+<%= params %>
+<dl>
+  <dt>
+    APR
+  </dt>
+  <dd>
+    <%= @users_APR %>
+  </dd>
+
+  <dt>
+    Number of years
+  </dt>
+  <dd>
+    <%= @users_years %>
+  </dd>
+
+  <dt>
+    Principal
+  </dt>
+  <dd>
+    <%= @users_principal %>
+  </dd>
+
+  <dt>
+    Payment
+  </dt>
+  <dd>
+    <%= @the_result %>
+  </dd>
+</dl>
+
+<a href="/payment/new">
+  Calculate another payment
+</a>
